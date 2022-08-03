@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance App</title>
+    <link rel="stylesheet" href="css/attendance.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="create-student">
+                <div class="form-group">
+                    <label for="fullname">Fullname</label>
+                    <input type="text" id="fullname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="avatar">Avatar</label>
+                    <input type="url" id="avatar" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="avatar-img"></label>
+                    <input type="image" id="avatar-img" class="avatar-lg" src="assets/images/noavatar.jpg">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-danger">Create</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="row student-list">
+                <!-- <div class="card">
+                    <img class="card-image" src="assets/images/noavatar.jpg" alt="">
+                    <h4 class="card-name">Khoa Nguyễn</h4>
+                    <div class="card-attendence">
+                        <button class="btn-attendence active">P</button>
+                        <button class="btn-attendence">A</button>
+                        <button class="btn-attendence">L</button>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">Edit</button>
+                        <button class="btn btn-warning">Remove</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="scripts/attendance.js"></script>
+</body>
+
+</html>
