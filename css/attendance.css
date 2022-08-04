@@ -115,6 +115,11 @@
     border-radius: 50%;
     background-color: gray;
     color:white;
+    cursor: pointer;
+}
+.btn-attendence:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 .active-l{
     background-color: #f3a844;
@@ -128,4 +133,8 @@
 
 .card-actions{
     margin: 5px 0px;
+}
+
+.d-none{
+    display: none;
 }
